@@ -1,0 +1,105 @@
+<!-- Please insert image strip (like on About Page) here with parallax effect-->
+<div class="parallax"></div>
+
+<br>
+
+<!-- ***** QUICK LINKS STRIP  -->
+<!-- Please make the columns larger, spaced out more, and centered like in the wireframe-->
+
+<div class="quick-links">
+    <h2>Quick Links</h2>
+    <p>Great to see you here! We have created a safe online environment<br>
+        for men of all ages to embrace who they are and learn <br>
+        more about what <b>ManUp</b> is all about!</p>
+    <br>
+    <!-- Insert CSS Grid Three Column Layout Here -->
+
+    <div class="row">
+        <div class="column" style="background-color: #f2f2f2;">
+            <h3>Get <br>Involved</h3>
+            <p>Learn more about upcoming <br>
+                events, register for workshops<br>
+                and programs! <br>
+                We have options available <br>
+                for everyone of all ages.</p>
+            <button type="button" class="btn">Learn More</button>
+        </div>
+        <div class="column" style="background-color: #f2f2f2;">
+            <h3>What is<br> ManUp?</h3>
+            <p>The ManUp program is meant <br>
+                to redefine what it means to<br>
+                "be a man" from a toxic tough <br>
+                guy definition to one of standing up <br>
+                for what is right regardless of <br>
+                the situation.</p>
+            <button type="button" class="btn">Learn More</button>
+        </div>
+        <div class="column" style="background-color: #f2f2f2;">
+            <h3>Mental Health <br>Resources</h3>
+            <p>We are here to help. <br>
+                Visit online resources<br>
+                to help with anything <br>
+                from depression, self-esteem, <br>
+                relationships, and more.</p>
+            <button type="button" class="btn">Learn More</button>
+        </div>
+    </div>
+</div>
+
+<!-- ***** WE CAN ADD A FUN INTERACTIVE FEATURE HERE, BRAINSTORM   -->
+
+
+<!-- ***** CONTACT FORM -->
+<!-- Please make this form look more interactive based on current Bootstrap theme -->
+
+
+<div class="contact-form">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="country">Email:</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+</div>
+
+
+<!--chat-box section-->
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+        <h1>Chat</h1>
+
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+</div>
+<div id="main">
+    <h1>Text Chatbox</h1>
+    <div>user: <span id="user"></span></div>
+    <div>chatbot: <span id="chatbot"></span></div>
+    <div><input id="input" type="text" placeholder="say anything..." autocomplete="off" /></div>
+</div>
+<div id="container">
+    <h1>Voice Chatbox</h1>
+    <a class="voice" href="#">Activate Voice</a>
+
+    <div class="chat-container">
+        <p class="voice2text">Hi there</p>
+    </div>
+
+    <div class="chat-container darker">
+        <p class="voice2text">Hello back</p>
+    </div>
+</div>

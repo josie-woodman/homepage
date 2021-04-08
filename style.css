@@ -1,0 +1,367 @@
+body {
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center !important;
+}
+
+html {
+  background-color: #f2f2f2;
+  text-align: center !important;
+}
+
+/* Homepage section */
+/* --- HEADER STYLING */
+/* Creating Parallax effect on image */
+.parallax {
+  background-image: url("../images/men-bonding.png");
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* --- FONT STYLING */
+h1,
+p {
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Spinnaker", sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+
+/* --- QUICK LINKS SECTION STYLING */
+
+.quick-links {
+  text-align: center !important;
+  background-color: #fff;
+  padding-bottom: 40%;
+  padding-top: 0.5px;
+}
+
+/* ---  CONTACT FORM STYLING */
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #ff4040;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Spinnaker", sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-form {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 10%;
+}
+
+/*homepage section ends here/
+
+
+
+/*social icons bar section*/
+/* Fixed/sticky icon bar */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, */
+.icon-bar a:hover {
+  background-color: #a6e2fa;
+}
+
+.facebook {
+  background: none;
+  color: black;
+}
+
+.twitter {
+  background: none;
+  color: black;
+}
+
+.google {
+  background: none;
+  color: black;
+}
+
+.linkedin {
+  background: none;
+  color: black;
+}
+
+.youtube {
+  background: none;
+  color: black;
+}
+/*social icons ends here */
+
+/* About Page  */
+.about {
+  background-image: url("../images/meeting.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  color: #000;
+}
+
+#imgSpace {
+  height: 450px;
+}
+
+#aboutSpace {
+  background-color: white;
+  padding-top: 5%;
+}
+#aboutInfo {
+  text-align: center;
+  background-color: #dbdbdb;
+  width: 80%;
+  margin-left: 10%;
+  padding: 5% 7.5% 7.5% 7.5%;
+}
+#line {
+  background-color: rgb(212, 19, 23);
+  height: 3px;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 0%;
+  margin-bottom: 4%;
+}
+#aboutInfo h2 {
+  font-size: 5rem;
+}
+
+#aboutInfo p {
+  font-size: 18px;
+  line-height: 2.2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: start;
+}
+
+/* login page  */
+.loginBg {
+  background-image: url(../images/people.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 80vh;
+  padding-top: 7%;
+}
+.loginPage {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  color: #000;
+}
+.loginHead {
+  padding-top: 10%;
+  text-align: left;
+  margin-left: 29%;
+  font-size: 3rem;
+}
+.loginBtn,
+.registerBtn {
+  background-color: rgb(212, 19, 23);
+  padding: 1% 2%;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  margin-left: 45%;
+}
+
+.loginBtn:hover,
+.registerBtn:hover {
+  background-color: rgb(129, 0, 0);
+}
+
+.loginForm {
+  font-size: 1.5rem;
+}
+
+.registerLink {
+  color: rgb(212, 19, 23);
+}
+
+.registerLink:hover {
+  color: rgb(85, 0, 1);
+}
+
+/* register page  */
+.registerPageBg {
+  background-image: url(../images/people-shadow.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 80vh;
+  padding-top: 6%;
+}
+
+.registerPage {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  color: #000;
+}
+
+.registerForm {
+  font-size: 1.5rem;
+}
+
+.registerHead {
+  padding-top: 10%;
+  text-align: left;
+  margin-left: 29%;
+  font-size: 3rem;
+}
+/* nav  */
+
+a {
+  color: #00b7ff;
+}
+
+nav {
+  font-size: 15px;
+}
+.navbar {
+  margin-bottom: 0;
+}
+p,
+h3,
+li {
+  font-size: 15px;
+  padding: 10px;
+}
+h3 {
+  color: dodgerblue !important;
+}
+/*chatbox pop-up */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 200px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+/*footer style*/
+footer {
+  background-color: #c10002;
+  color: white;
+}

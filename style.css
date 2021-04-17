@@ -12,13 +12,13 @@ html {
 /* --- HEADER STYLING */
 /* Creating Parallax effect on image */
 .parallax {
-  background-image: url("../images/men-bonding.png");
+  background-image: url("../images/men-bonding.png") !important;
   min-height: 500px;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 /* --- FONT STYLING */
@@ -52,6 +52,18 @@ p {
   background-color: #fff;
   padding-bottom: 40%;
   padding-top: 0.5px;
+}
+
+/* OUR MISSION STYLING */
+#mission {
+  text-align: center !important;
+  background-color: lightgrey;
+}
+
+#mission p {
+  font-size: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
 }
 
 /* ---  CONTACT FORM STYLING */
@@ -365,3 +377,4 @@ footer {
   background-color: #c10002;
   color: white;
 }
+
